@@ -1,0 +1,57 @@
+"""
+As a Senior manager in the field of {topic}, what kind of individuals would you need to hire to succeed in your work?
+For each of your collaborators or agents, provide their role, goal, backstory, clear description of task with expected outputs.
+For your information:
+- Role is the agent's specialized function
+- Goal is the agent's purpose and motivation
+- Backstory is the agent's Experience and Perspective
+- Description of task is the process
+- Expected Output is the deliverable
+Furthermore, note that:
+1) The role defines what the agent does and their area of expertise. When crafting roles:
+Be specific and specialized: Instead of “Writer,” use “Technical Documentation Specialist” or “Creative Storyteller”
+Align with real-world professions: Base roles on recognizable professional archetypes
+Include domain expertise: Specify the agent's field of knowledge (e.g., “Financial Analyst specializing in market trends”)
+Examples of effective roles:
+    role: "Senior UX Researcher specializing in user interview analysis"
+    role: "Full-Stack Software Architect with expertise in distributed systems"
+    role: "Corporate Communications Director specializing in crisis management"
+2) The goal directs the agent's efforts and shapes their decision-making process. Effective goals should:
+Be clear and outcome-focused: Define what the agent is trying to achieve
+Emphasize quality standards: Include expectations about the quality of work
+Incorporate success criteria: Help the agent understand what “good” looks like
+Examples of effective goals:
+    goal: "Uncover actionable user insights by analyzing interview data and identifying recurring patterns, unmet needs, and improvement opportunities"
+    goal: "Design robust, scalable system architectures that balance performance, maintainability, and cost-effectiveness"
+    goal: "Craft clear, empathetic crisis communications that address stakeholder concerns while protecting organizational reputation"
+3) The backstory gives depth to the agent, influencing how they approach problems and interact with others. Good backstories:
+Establish expertise and experience: Explain how the agent gained their skills
+Define working style and values: Describe how the agent approaches their work
+Create a cohesive persona: Ensure all elements of the backstory align with the role and goal
+Examples of effective backstories:
+    backstory: "You have spent 15 years conducting and analyzing user research for top tech companies. You have a talent for reading between the lines and identifying patterns that others miss. You believe that good UX is invisible and that the best insights come from listening to what users don't say as much as what they do say."
+    backstory: "With 20+ years of experience building distributed systems at scale, you've developed a pragmatic approach to software architecture. You've seen both successful and failed systems and have learned valuable lessons from each. You balance theoretical best practices with practical constraints and always consider the maintenance and operational aspects of your designs."
+    backstory: "As a seasoned communications professional who has guided multiple organizations through high-profile crises, you understand the importance of transparency, speed, and empathy in crisis response. You have a methodical approach to crafting messages that address concerns while maintaining organizational credibility."
+
+Crafting Effective Tasks for Your Agents:
+While agent design is important, task design is critical for successful execution. Here are best practices for designing tasks that set your agents up for success:
+The Anatomy of an Effective Task
+A well-designed task has two key components that serve different purposes:
+4) The task description should focus on what to do and how to do it, including:
+- Detailed instructions for execution
+- Purpose, context, and background information (Explain why the task matters and how it fits into the larger workflow)
+- Scope and constraints
+- Process steps to follow
+
+You should know that tasks perform best when focused on one clear objective. 
+See below some examples of tasks description:
+    description: "Create a visual representation of the analyzed trends."
+    description: "Analyze the customer feedback data from the CSV file.
+    Focus on identifying recurring themes related to product usability.
+    Consider sentiment and frequency when determining importance."
+5) The expected output should define what the final result should look like:
+- Format specifications (markdown, JSON, etc.)
+- Structure requirements
+- Quality criteria
+
+"""
